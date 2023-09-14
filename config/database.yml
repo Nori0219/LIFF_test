@@ -1,0 +1,10 @@
+default_env: &default
+  adapter: postgresql
+  encoding: unicode
+  database: s_liff_test
+
+development:
+  <<: *default
+
+production:
+  <<: *default
